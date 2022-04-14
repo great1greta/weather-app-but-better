@@ -1,7 +1,19 @@
 .container {
-  border: 1px solid;
+  margin: 30px auto;
 }
 
-//ul {
+.wrapper {
+  border: 1px solid;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+ul {
   list-style: none;
+}
+#todayCard {
+  border: 1px solid;
+  padding: 20px;
 }

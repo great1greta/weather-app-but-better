@@ -15,41 +15,43 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-4" id="time">Sunday 13:22</div>
-        <div class="col-8" id="searchEngine">Search</div>
-      </div>
-      <div class="row">
-        <div class="col-5" id="todayCard">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt=""
-            id="todayIcon"
-          />
-          <span class="todayTemperature" id="todayTemperature">0</span>
-          <span class="units">
-            <a href="#" id="celsius-link">°C </a>|
-            <a href="#" id="fahrenheit-link">°F</a></span
-          >
+      <div class="wrapper">
+        <div class="row" id="top">
+          <div class="col-4" id="time">Sunday 13:22</div>
+          <div class="col-8" id="searchEngine">Search</div>
         </div>
-        <div class="col-4" id="todayInfo">
-          <ul>
-            <li id="weather">Cloudy</li>
-            <li>Humidity: <span id="humidity">95</span>%</li>
-            <li>Wind: <span id="wind">13</span>m/s</li>
-          </ul>
+        <div class="row">
+          <div class="col-5" id="todayCard">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt=""
+              id="todayIcon"
+            />
+            <span class="todayTemperature" id="todayTemperature">0</span>
+            <span class="units">
+              <a href="#" id="celsius-link">°C </a>|
+              <a href="#" id="fahrenheit-link">°F</a></span
+            >
+          </div>
+          <div class="col-4" id="todayInfo">
+            <ul>
+              <li id="weather">Cloudy</li>
+              <li>Humidity: <span id="humidity">95</span>%</li>
+              <li>Wind: <span id="wind">13</span>m/s</li>
+            </ul>
+          </div>
+          <div class="col-3">Sunrise</div>
         </div>
-        <div class="col-3">Sunrise</div>
+        <h1 id="city">Vilnius</h1>
       </div>
-      <h1 id="city">Vilnius</h1>
+      <small>
+        <a
+          href="https://github.com/great1greta/weather-app-but-better"
+          target="_blank"
+          >Open-source code </a
+        >by Greta Vasiulyte
+      </small>
     </div>
     <script src="src/app.js"></script>
-    <small>
-      <a
-        href="https://github.com/great1greta/weather-app-but-better"
-        target="_blank"
-        >Open-source code </a
-      >by Greta Vasiulyte
-    </small>
   </body>
 </html>
