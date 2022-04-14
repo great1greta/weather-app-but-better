@@ -13,7 +13,13 @@
 ul {
   list-style: none;
 }
+
+#top {
+  padding: 15px 35px;
+}
+
 #todayCard {
   border: 1px solid;
-  padding: 20px;
+  padding: 15px;
+  margin: 15px auto;
 }
