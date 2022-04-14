@@ -17,10 +17,34 @@
   <body>
     <div class="container">
       <div class="wrapper">
-        <div class="row" id="top">
-          <div class="col-4" id="time">Sunday 13:22</div>
-          <div class="col-8" id="searchEngine">Search</div>
+        <div id="search-engine">
+          <form id="search-form">
+            <div class="row">
+              <div class="col-6" id="form">
+                <input
+                  type="search"
+                  placeholder="type city name..."
+                  class="form-control"
+                  id="city-input"
+                />
+              </div>
+              <div class="col-3" id="search">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary shadow-sm"
+                />
+              </div>
+              <div class="col-3" id="current">
+                <button class="btn btn-success" id="current-location-button">
+                  Current location
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
+        <div id="time">Sunday 13:22</div>
+
         <div class="row">
           <div class="col-5" id="todayCard">
             <img
@@ -28,13 +52,13 @@
               alt=""
               id="todayIcon"
             />
-            <span class="todayTemperature" id="todayTemperature">0</span>
+            <span class="todayTemperature" id="today-temperature">0</span>
             <span class="units">
               <a href="#" id="celsius-link">°C </a>|
               <a href="#" id="fahrenheit-link">°F</a></span
             >
           </div>
-          <div class="col-7" id="todayInfo">
+          <div class="col-7" id="today-info">
             <ul>
               <li id="weather">Cloudy</li>
               <li>Humidity: <span id="humidity">95</span>%</li>
