@@ -1,21 +1,9 @@
-.container {
-  margin: 30px auto;
-}
-
-.wrapper {
-  border: 1px solid;
-  padding: 30px;
-  display: block;
-  margin: 0 auto;
-  max-width: 600px;
-}
-
 ul {
   list-style: none;
 }
 
-#top {
-  padding: 15px 0;
+#search-engine {
+  margin: 0 0 20px 0;
 }
 
 #form,
@@ -25,8 +13,57 @@ ul {
   margin: 0 auto;
 }
 
+#search {
+  opacity: 0.87;
+}
+
+#current-location-button {
+  background-color: #151658;
+  border: none;
+  box-shadow: 0 1px 5px rgb(62, 108, 182);
+  opacity: 0.86;
+  margin: 0 0 0 15px;
+  border-radius: 6px;
+  padding: 8px 15px;
+}
+
+#time {
+  font-size: 19px;
+}
+
 #todayCard {
-  border: 1px solid;
-  padding: 15px;
+  background-color: #d9e7f9;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 15px 15px 10px 15px;
   margin: 15px auto;
+}
+
+#today-info {
+  padding: 30px 40px;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.wrapper {
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  border: 2px solid rgba(255, 255, 255, 0.567);
+  border-radius: 13px;
+  box-shadow: 0 1px 20px rgb(153, 187, 224);
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.todayTemperature {
+  font-size: 57px;
+}
+
+.units {
+  position: relative;
+  top: -35px;
+  padding: 0 0 0 5px;
 }

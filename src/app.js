@@ -29,7 +29,7 @@ function displayTemperature(response) {
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
   let currentTime = document.querySelector("#time");
-  let iconElement = document.querySelector("#todayIcon");
+  let iconElement = document.querySelector("#today-icon");
 
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   cityElement.innerHTML = response.data.name;
