@@ -39,6 +39,10 @@ ul {
   margin: 15px auto;
 }
 
+#today-temperature {
+  font-size: 57px;
+}
+
 #today-info {
   padding: 30px 40px;
 }
@@ -58,12 +62,17 @@ ul {
   max-width: 700px;
 }
 
-.todayTemperature {
-  font-size: 57px;
-}
-
 .units {
   position: relative;
   top: -35px;
   padding: 0 0 0 5px;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
 }
