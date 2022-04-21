@@ -55,6 +55,15 @@ small {
   padding: 30px 40px;
 }
 
+#forecast-card {
+  background-color: #d9e7f9;
+  border: 2px solid white;
+  border-radius: 5px;
+  max-width: 93px;
+  margin: 8px;
+  padding: 10px 7px;
+}
+
 .container {
   padding: 30px 0 25px 0;
 }
